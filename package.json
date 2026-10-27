@@ -1,0 +1,45 @@
+{
+  "name": "bb-plugin-autoresearch-self-loop",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "bb": ">=0.46",
+    "bbPluginSdk": ">=0.6.68"
+  },
+  "bb": {
+    "name": "Autoresearch Self Loop",
+    "description": "Autonomous experiment loop, ported from pi-autoresearch: edit, benchmark, keep or revert, repeat. Results and confidence show in a thread panel.",
+    "branding": {
+      "icon": "RotateCcw"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "skills": [
+      "skills"
+    ]
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.68",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  },
+  "description": "Run autonomous benchmark-driven experiment loops in BB.",
+  "author": {
+    "name": "Oleg",
+    "url": "https://github.com/zom-2018"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zom-2018/bb-plugin-autoresearch-self-loop#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zom-2018/bb-plugin-autoresearch-self-loop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zom-2018/bb-plugin-autoresearch-self-loop/issues"
+  }
+}
